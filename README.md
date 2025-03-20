@@ -3,7 +3,7 @@
 ## 📌 Sobre o Projeto
 A **Agenda de Contatos** é uma aplicação web simples que permite adicionar, editar e excluir contatos. O projeto foi desenvolvido utilizando **HTML, CSS e JavaScript** puro.
 
-🔗 Acesse o projeto online:[Agenda de Contatos](https://agenda-de-contatos-rosy-chi.vercel.app) 
+🔗 Acesse o projeto online: [Agenda de Contatos](https://agenda-de-contatos-rosy-chi.vercel.app) 
 
 
 ## 🚀 Funcionalidades
