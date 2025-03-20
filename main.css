@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #2a5298;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    min-height: 100vh;
+    padding-top: 20px; 
+}
+
+.container {
+    max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #ffffff, #e6e6e6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#numero-telefone {
+    flex: 0.3;
+}
+
+#email {
+    flex: 1.2;
+}
+
+#nome-contato{
+    flex: 1;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1e3c72;
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    font-size: 18px;
+    padding: 10px;
+    flex: 1;
+    min-width: 150px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+form button {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+.table-container {
+    max-height: 300px;
+    overflow-y: auto;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+table th {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn-edit {
+    background-color: #e0a904;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e3c72;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    color: #e0a904; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s, text-shadow 0.3s; 
+}
+
+footer a:hover {
+    color: #fff000; 
+}
+
